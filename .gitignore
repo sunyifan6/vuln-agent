@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Local secrets - NEVER commit (API key lives in config.py; clear it before pushing)
+key.txt
+.env
+config_local.py
+
+# Runtime artifacts: keep only the final submission file
+cache/
+*.tar.gz
+*.zip
+out/*
+!out/result_final.jsonl
