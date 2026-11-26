@@ -10,7 +10,7 @@ C/C++ 函数级漏洞检测：判断一个函数是否存在安全缺陷。
 打开 `config.py`，第 11 行附近有一处：
 
 ```python
-API_KEY = ""      # ← 把 key 填进引号里，形如 "sk-794024232748493e96de25dac8d630db"
+API_KEY = ""     
 ```
 
 key 到 https://platform.deepseek.com/api_keys 申请。
